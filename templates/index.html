@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+  <div class="row col">
+  <div class="card border">
+    <img class="card-img-top img-fluid rounded" src="{{ url_for('static', filename='img/AnaliseSugestao2Azul.jpg') }}" alt="Card image cap">
+    <div class="card-body">
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary active btn-block" data-toggle="modal" data-target="#exampleModalLong">
+        Dúvidas
+      </button>
+      <hr>
+
+<!-- Modal -->
+      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Dúvidas Frequentes</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              
+              <h2>Dúvidas</h2>
+              <div class="Media">
+                <hr>
+                <ul>
+                  <li><a href="#funcionamento">Como o sistema funciona?</a></li>
+                  <li><a href="#preparo">Como preparar os currículos para envio?</a></li>
+                </ul>
+                <hr>
+              </div>
+
+              <div id="funcionamento">
+                <p><strong><b>Funcionamento</b></strong></p>
+                <p>Para que o sistema funcione, é preciso submeter um arquivo zipado com os currículos.</p>
+                <p>Quando o precessamento for realizado, aparecerá um botão para download dos gráficos.</p>
+                <hr>
+              </div>
+
+              <div id="preparo">
+                <p><strong><b>Preparar os currículos</b></strong></p>
+                <p>
+                  Entre no site do lattes, clicando <a href="http://lattes.cnpq.br/" target="_blank">aqui.</a>
+                </p>
+                <p>Procure por <i>Buscar currículo</i> no canto superior direito.
+                  <img src="{{ url_for('static', filename='img/lattes1.png') }}" alt="buscar curriculo">
+                </p>
+                <p>Busque pelo currículo desejado.</p>
+                <p>
+                  Quando abrir a página do currículo desejado, clique no botão <i>xml</i> no canto superior direito.
+                </p>
+                <p>
+                  <img src="{{ url_for('static', filename='img/lattes2.png') }}" alt="xml">
+                </p>
+                <p>
+                  Com os currículos devidamente baixados, compacte-os. 
+                </p>
+                <p><b>Atenção!</b> Mesmo sendo somente um currículo, ele ainda deve ser compactado novamente.</p>
+                <hr>
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <form method=post action="{{ url_for('upload_file') }}" enctype=multipart/form-data>
+          
+        <!--<div class="custom-file form-group">
+          <input type="file" name="file" class="custom-file-input form-control" id="customFile">
+          <label class="custom-file-label" for="customFile">Choose file</label>
+        </div>-->
+
+        <input type="file" name="file"> <hr>
+        
+        <button type="submit" class="btn btn-primary btn-block active">Enviar</button>
+
+        {% if linkdownload %}
+        
+        <br>
+
+        <p><strong><b>Resultado Final</b></strong></p>
+
+        <br>
+
+        {% for key in countTotal %}
+
+          <p>{{ key }} obteve a pontuação de: {{ countTotal[key] }}</p>
+
+        {% endfor %}
+
+        <hr>
+        <a href="/download" class="btn btn-warning btn-sm btn-block active" role="button" aria-pressed="true">Baixar</a>
+
+        {% endif %}
+
+        
+
+      </form>
+
+    </div>
+  </div>
+
+  </div>
+
+  
+
+  </div>
+
+  {% endblock %}

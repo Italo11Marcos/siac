@@ -1,0 +1,29 @@
+body {
+    background-color: #343176;
+}
+
+.content {
+    align-content: center;
+}
+
+.load {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 30%;
+	left: 45%;
+	color: blue;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
