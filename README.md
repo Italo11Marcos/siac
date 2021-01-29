@@ -38,10 +38,10 @@
 
 ## Imagens da Aplicação
 <p align=justify>
-    ![Tela inicial](prints/tela-principal.png)
-    ![Dúvidas Frequentes](https://github.com/Italo11Marcos/siac/blob/master/prints/duvidas-frequentes.png)
-    ![Imagens geradas](https://github.com/Italo11Marcos/siac/blob/master/prints/PARTICIPACAO-EM-CONGRESSO.png
-    ![Imagens geradas](https://github.com/Italo11Marcos/siac/blob/master/prints/PARTICIPACAO-EM-ENCONTRO.png)
+    [Tela inicial](https://github.com/Italo11Marcos/siac/blob/master/prints/tela-principal.png)
+    [Dúvidas Frequentes](https://github.com/Italo11Marcos/siac/blob/master/prints/duvidas-frequentes.png)
+    [Imagens geradas](https://github.com/Italo11Marcos/siac/blob/master/prints/PARTICIPACAO-EM-CONGRESSO.png
+    [Imagens geradas](https://github.com/Italo11Marcos/siac/blob/master/prints/PARTICIPACAO-EM-ENCONTRO.png)
 </p>
 
 ## Pré Requisitos
