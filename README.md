@@ -13,11 +13,11 @@
 
 :pushpin: [Funcionalidades](#funcionalidades)
 
-:pushpin: [Imagens da Aplicação](#deploy-da-aplicação-dash)
+:pushpin: [Imagens da Aplicação](#imagens-da-aplicação)
 
 :pushpin: [Pré-requisitos](#pré-requisitos)
 
-:pushpin: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+:pushpin: [Como rodar a aplicação](#como-rodar-a-aplicação)
 
 ## Descrição do Projeto
 <p align="justify">
@@ -28,16 +28,19 @@
 ## Funcionalidades
 <p align="justify">
    :white_check_mark: Descompacta arquivo compactados
+  
    :white_check_mark: Parser por toda a extrutura xml do arquivo
+   
    :white_check_mark: Extrai os dados (mais de 90)
-   :white_check_mark: Gera imagens comparando os arquivos analisados 
+   
+   :white_check_mark: Gera imagens comparando os arquivos analisados
 </p>
 
 ## Imagens da Aplicação
 <p align=justify>
-    ![Tela inicial](https://github.com/Italo11Marcos/siac/blob/master/prints/tela-principal.png)
+    ![Tela inicial](prints/tela-principal.png)
     ![Dúvidas Frequentes](https://github.com/Italo11Marcos/siac/blob/master/prints/duvidas-frequentes.png)
-    ![Imagens geradas](https://github.com/Italo11Marcos/siac/blob/master/prints/PARTICIPACAO-EM-CONGRESSO.png)
+    ![Imagens geradas](https://github.com/Italo11Marcos/siac/blob/master/prints/PARTICIPACAO-EM-CONGRESSO.png
     ![Imagens geradas](https://github.com/Italo11Marcos/siac/blob/master/prints/PARTICIPACAO-EM-ENCONTRO.png)
 </p>
 
