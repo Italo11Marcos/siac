@@ -10,7 +10,7 @@ def graficos():
     df1 = pd.read_csv('results/contagem_final_apenas_pqs_2_2010_p5.csv')
 
     #path recebe o caminho da pasta em que os gráficos serão salvos  
-    path = "C:\\Users\\italo.siqueira\\Documents\\FlaskProjects\\siac\\imgs"
+    path = "C:\\Users\\italo\\Documents\\python\\flask\\siac\\siac\\imgs"
 
     nomescampos = list()
     i = 0

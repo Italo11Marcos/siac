@@ -19,7 +19,7 @@ def contagem():
 
     pqs2_2015 = list()
 
-    path = "C:\\Users\\italo.siqueira\\Documents\\FlaskProjects\\siac\\filesextracted"
+    path = "C:\\Users\\italo\\Documents\\python\\flask\\siac\\siac\\filesextracted"
 
     for xml in os.listdir(path):
         x = xml.split('.')

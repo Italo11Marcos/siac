@@ -58,7 +58,7 @@ def upload_file():
 
 @app.route('/download')
 def downloadFile():
-    path = "C:\\Users\\italo.siqueira\\Documents\\FlaskProjects\\siac\\bk_imgs.zip"
+    path = "C:\\Users\\italo\\Documents\\python\flask\\siac\\siac\\bk_imgs.zip"
     return send_file(path, as_attachment=True)
 
 

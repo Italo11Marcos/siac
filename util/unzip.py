@@ -2,9 +2,9 @@ import shutil, os, zipfile
 
 def unzip():
     
-    path1 = "C:\\Users\\italo.siqueira\\Documents\\FlaskProjects\\siac\\files"
-    path2 = "C:\\Users\\italo.siqueira\\Documents\\FlaskProjects\\siac"
-    path3 = "C:\\Users\\italo.siqueira\\Documents\\FlaskProjects\\siac\\filesextracted"
+    path1 = "C:\\Users\\italo\\Documents\\python\\flask\\siac\\siac\\files"
+    path2 = "C:\\Users\\italo\\Documents\\python\\flask\\siac\\siac"
+    path3 = "C:\\Users\\italo\\Documents\\python\\flask\\siac\\siac\\filesextracted"
 
     #descompacta a primeira vez
     for filename in os.listdir(path1):

@@ -5,10 +5,10 @@ import os
 
 def apaga():
 
-    path1 = "C:\\Users\\italo.siqueira\\Documents\\FlaskProjects\\siac\\files"
-    path2 = "C:\\Users\\italo.siqueira\\Documents\\FlaskProjects\\siac\\filesextracted"
-    path3 = "C:\\Users\\italo.siqueira\\Documents\\FlaskProjects\\siac\\imgs"
-    path4 = "C:\\Users\\italo.siqueira\\Documents\\FlaskProjects\\siac"
+    path1 = "C:\\Users\\italo\\Documents\\python\\flask\\siac\\siac\\files"
+    path2 = "C:\\Users\\italo\\Documents\\python\\flask\\siac\\siac\\filesextracted"
+    path3 = "C:\\Users\\italo\\Documents\\python\\flask\\siac\\siac\\imgs"
+    path4 = "C:\\Users\\italo\\Documents\\python\\flask\\siac\\siac"
 
     for filename in os.listdir(path1):
         if filename.endswith('.zip'):

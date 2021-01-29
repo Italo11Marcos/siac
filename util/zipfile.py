@@ -1,7 +1,7 @@
 from shutil import make_archive
 from util import moves
 
-path = "C:\\Users\\italo.siqueira\\Documents\\FlaskProjects\\siac\\imgs"
+path = "C:\\Users\\italo\\Documents\\python\\flask\\siac\\siac\\imgs"
 
 #compacta todos os arquivos da pasta para ZIP
 def zip():
